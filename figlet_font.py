@@ -13,7 +13,7 @@ def main():
     args = parse_arguments()
 
     if args.font and args.font not in pyfiglet.Figlet().getFonts():
-        print("Invalid usage")
+        print("Missing command-line argument")
         sys.exit(1)
 
     text = input("Output: ")
