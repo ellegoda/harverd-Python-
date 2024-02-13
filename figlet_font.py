@@ -4,7 +4,7 @@ import pyfiglet
 
 
 def parse_arguments():
-    parser = argparse.ArgumentParser(description="Display text in a specific font using FIGlet.")
+    parser = argparse.ArgumentParser(description="Display text in a specific font using FIGLET.")
     parser.add_argument("-f", "--font", help="Specify the font for the text")
     return parser.parse_args()
 
